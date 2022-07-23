@@ -1,0 +1,138 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Abel', sans-serif 10px;
+    color: #3e403f;
+    text-align: center;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    line-height: 1.42857143;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-image: linear-gradient(-225deg, #E3FDF5 0%, #FFE6FA 100%);
+    background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+#container {
+    padding: 10px;
+    width: 550px;
+    max-width: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow:0 4px 4px rgb(114, 108, 108);
+    background-image: linear-gradient(-205deg, #E3FDF5 50%, #FFE6FA 50%);
+}
+
+.header {
+    margin: 2% auto 10% auto;
+    padding: 5px;
+}
+
+.header h1 {
+    font-size: larger 250%;
+    color: #3e403f;
+    font-family: 'Playfair Display', serif;
+}
+
+#form {
+    width: 450px;
+    min-height: 400px;
+    height: auto;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 2% auto;
+    align-items: center;
+}
+
+#form button {
+    font-size: 14px;
+    width: 100%;
+    border-radius: 10px;
+    border: 2px solid #fff;
+    color: #252537;
+    background: #fff;
+    padding: 10px;
+    width: 270px;
+    height: 45px;
+    margin: 7% auto;
+    letter-spacing: 0.05em;
+    display: -webkit-flex;
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+}
+
+#form button:hover {
+    animation: pulsate 1s ease-in-out;
+}
+
+@keyframes pulsate {
+    0% {
+        box-shadow: 0 0 25px #cf3eb0e7,
+            0 0 50px #5fbaca
+    }
+}
+
+.form-control {
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    display: -webkit-flex;
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+}
+
+.form-control input {
+    width: 75%;
+    background: #fff;
+    color: #333;
+    border: 2px solid #f0f0f0;
+    padding: 10px;
+    border-radius: 10px;
+    padding: 14.5px 3px 15px 9px;
+}
+
+.form-control i {
+    visibility: hidden;
+}
+
+.form-control small {
+    visibility: hidden;
+}
+
+.link a {
+    color: #333;
+}
+
+.form-control.success input {
+    border-color: rgba(88, 150, 53, 0.623);
+}
+
+.form-control.error input {
+    border-color: rgba(248, 38, 48, 0.466);
+}
+
+/*Caso o formulario esteja preenchido corretamente*/
+.form-control.success i.fa-check {
+    color: rgba(88, 150, 53, 0.623);
+    visibility: visible;
+}
+
+/*Caso o formulario não esteja preenchido corretamente*/
+.form-control.error i.fa-xmark {
+    color: rgba(248, 38, 48, 0.466);
+    visibility: visible;
+}
+
+/*Mensagem de erro*/
+.form-control.error small {
+    border-color: rgba(248, 38, 48, 0.466);
+    visibility: visible;
+}
