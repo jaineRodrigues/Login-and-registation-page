@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--importando fontes google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <title>Cadastrar novo usuário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="container">
+        <div class="header">
+            <h1>Criar nova conta</h1>
+        </div>
+
+        <form action="cadastrarUsuario" id="form">
+            <!--inicia o formulário-->
+            <div class="form-control">
+                <input type="text" id="username" placeholder="Digite seu nome de usuário:">
+                <i class="fa-solid fa-xmark"></i>
+                <i class="fas fa-check"></i>
+                <small></small>
+            </div>
+
+            <div class="form-control">
+                <input type="text" id="email" placeholder="Digite seu email:">
+                <i class="fa-solid fa-xmark"></i>
+                <i class="fas fa-check"></i>
+                <small></small>
+            </div>
+
+            <div class="form-control">
+                <input type="password" id="password" placeholder="Digite uma senha:">
+                <i class="fa-solid fa-xmark"></i>
+                <i class="fas fa-check"></i>
+                <small></small>
+            </div>
+
+            <div class="form-control">
+                <input type="password" id="password-confirmation" placeholder="Digite sua senha novamente:">
+                <i class="fa-solid fa-xmark"></i>
+                <i class="fas fa-check"></i>
+                <small></small>
+            </div>
+
+            <button type="submit">Cadastrar</button>
+
+            <div>
+                <a href="login.html" target="_self">Voltar</a>
+            </div>
+        </form>
+    </div>
+
+    <script src="https://kit.fontawesome.com/899b0b6fcc.js" crossorigin="anonymous"></script>
+    <!--meu kit de icones-->
+    <script src="script.js"></script>
+</body>
+
+</html>
