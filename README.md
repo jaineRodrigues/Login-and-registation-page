@@ -2,7 +2,7 @@
 Página de login e cadastro simples utilizando HTML, CSS e JS.
 <br>
 > status do projeto: Em construção :warning:
-### Feafures
+### Features
 - [x] Cadastro de usuário
 - [x] Login
 - [ ] Pagina de acesso
