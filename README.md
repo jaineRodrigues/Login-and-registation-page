@@ -1,5 +1,5 @@
 # Login-and-registation-page
-Página de login e cadastro simples utilizando HTML, CSS e JS.
+Página de cadastro de usuário.
 <br>
 > status do projeto: Em construção :warning:
 ### Features
