@@ -8,4 +8,4 @@ Página de cadastro de usuário.
 - [ ] Pagina de acesso
 - [ ] Alterar senha
 - [ ]  Alterar email
-> <a href="https://jainerodrigues.github.io/Login-and-registation-page/">Ir para o site</a>
+> 
