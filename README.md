@@ -2,7 +2,7 @@
 Página de cadastro de usuário.
 <br>
 > status do projeto: Em construção :warning:
-### Phases
+### Features
 - [x] Cadastro de usuário
 - [x] Login
 - [ ] Pagina de acesso
